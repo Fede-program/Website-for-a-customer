@@ -1,0 +1,83 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 180vh;
+}
+
+/* CHANGE PICTURE DARKNESS */
+.picture {
+    background-image: url("SunscreenV2.jpg");
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+
+.jane {
+    padding-top: 26vh;
+    text-align: center;
+    font-size: 22px;
+}
+
+.jane img {
+    background: white;
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.mainText {
+    padding-top: 7vh;
+    color: white;
+    padding-bottom: 5vh;
+    font-size: 29px;
+}
+
+.linkbar a {
+    font-size: 29px;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+
+#LinkedIn:hover {
+    color: blue;
+}
+#GitHub:hover {
+    color: rgb(150, 150, 150);
+}
+#Twitter:hover {
+    color: cyan;
+}
+
+.footer {
+    text-align: center;
+    display: none;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #222;
+    color: grey;
+    padding: 20px;
+}
+
+.footer a {
+    font-size: 30px;
+    color: grey;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: white;
+}
